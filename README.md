@@ -9,6 +9,7 @@ I made it with the Bootstrap framework, it only takes ± 1.5 hours to make this 
 
 #
 Bootstrap Framework : https://getbootstrap.com
+AOS Website : https://www.google.com/url?sa=t&source=web&rct=j&url=https://michalsnik.github.io/aos/&ved=2ahUKEwj-nqGxsMLwAhXmILcAHVzqAJQQFjAAegQIAxAC&usg=AOvVaw1uYEaDn-FOG9NDw2SMwTWQ
 
 Thanks <b>Framework Indonesia</b> (on YouTube) to helped me make this.
 
