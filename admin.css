@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css?family=Rubik');
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Rubik';
+}
+
+nav .navbar-brand {
+  font-size: 22px;
+}
+
+.icon h5 i { cursor: pointer; font-size: 20px; }
+.icon h5 i:hover {
+  color: #eee;
+}
+
+.sidebar .nav-link {
+  transition: 0.3s;
+  border-radius: 2px;
+}
+.sidebar .nav-link:hover {
+  background: grey;
+}
+.sidebar .nav-link:active {
+  transform: scale(0.95);
+}
+
+.sidebar .nav-link > i {
+  font-size: 18px;
+}
+
+.aktif {
+  background: grey;
+}
+
+/* DASHBOARD */
+.title {
+  font-size: 22px;
+  color: #1b1717;
+  text-transform: uppercase;
+}
+
+.card .card-body-icon {
+  position: absolute;
+  top: 25px; right: 4px;
+  opacity: .4;
+  font-size: 90px;
+  z-index: 0;
+}
+
+.card a p {
+  font-size: 18px;
+  transition: 0.3s;
+  color: #eee !important;
+}
+
+.card a p:hover, .card a:hover {
+  color: #fff !important;
+}
+.card a p:active {
+  transform: scale(0.98);
+}
+
+.social, .ekstra, .kelas {
+  transition: 0.3s;
+}
+.social:active, .ekstra:active, .kelas:active {
+  transform: scale(0.95);
+}
+
+.social a, .ekstra a, .kelas a {
+  text-decoration: none;
+}
+
+.ekstra .ekstra-header {
+  background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0)), url(https://images.pexels.com/photos/274422/pexels-photo-274422.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+  background-size: cover;
+}
+
+.ekstra .ekstra-header2 {
+  background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0)), url(https://images.pexels.com/photos/5211446/pexels-photo-5211446.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+  background-size: cover;
+}
+
+.ekstra .ekstra-header3 {
+  background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0)), url(https://akcdn.detik.net.id/visual/2015/07/25/20855c2c-625a-48ca-b47a-8df55bfd3574_169.jpg?w=650);
+  background-size: cover;
+}
+
+.ekstra .ekstra-header4 {
+  background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0)), url(https://cdn.popmama.com/content-images/post/20190407/manfaat-anak-mengikuti-pmr-1-9f2cb46eae083156e7e91bb3c971cfd3_600xauto.jpg);
+  background-size: cover;
+}
+
+/* DAFTAR SISWA & GURU */
+table {
+  font-family: Helvetica, 'Poppins', sans-serif;
+}
+
+table tr td i {
+  font-size: 18px;
+}
+
+/* DAFTAR KELAS */
+.kelas a {
+  cursor: zoom-in;
+}
+
+.kelas-header {
+  background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0)), url(https://i.ibb.co/BPYFLyM/109287085-1588259494714025-3240825190851500976-n.jpg);
+  background-size: cover;
+}
+
+.kelas-header1, .kelas-header4 {
+  background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0)), url(https://i.ibb.co/zN0RGBf/107304075-324880845184864-6376576230242110605-n.jpg);
+  background-size: cover;
+}
+
+.kelas-header2, .kelas-header3 {
+  background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0)), url(https://i.ibb.co/VThpp6n/109350878-1166415113734397-3772880271369733889-n.jpg);
+  background-size: cover;
+}
+
+.lab-header, .lab-header3 {
+  background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0)), url(https://images.pexels.com/photos/5428148/pexels-photo-5428148.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+  background-size: cover;
+}
+
+.lab-header2, .lab-header4 {
+  background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0)), url(https://images.pexels.com/photos/5427869/pexels-photo-5427869.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+  background-size: cover;
+}
+
+.perpus-header {
+  background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0)), url(https://images.pexels.com/photos/256541/pexels-photo-256541.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+  background-size: cover;
+}
+
+.masjid-header {
+  background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0)), url(https://images.pexels.com/photos/1537086/pexels-photo-1537086.jpeg?auto=compress&cs=tinysrgb&h=750&w=1260);
+  background-size: cover;
+}
