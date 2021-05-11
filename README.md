@@ -8,5 +8,5 @@ I made it with the Bootstrap framework, it only takes ± 1.5 hours to make this 
 #
 Bootstrap Framework : https://getbootstrap.com
 
-Thanks Framework Indonesia (on YouTube) to helped me make this.
+Thanks <b>Framework Indonesia</b> (on YouTube) to helped me make this.
 
