@@ -1,5 +1,7 @@
 # admin-smpn2waru.github.io
 
+[https://dimaskuy.github.io/admin-smpn2waru.github.io/]
+
 This is a Admin Template for SMPN 2 Waru, Sidoarjo School.
  </br>
 
