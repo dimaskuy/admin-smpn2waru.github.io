@@ -8,6 +8,30 @@ body {
   font-family: 'Rubik';
 }
 
+.container-lobby {
+  background: linear-gradient(60deg, #f7f7f7, #eee);
+}
+.container-lobby .input-email, .input-password { font-size: 18px; }
+
+.icon-lobby .lobby-icon { transition: 0.3s; }
+.icon-lobby .lobby-icon:hover { text-decoration: none; }
+.icon-lobby .lobby-icon i { transition: 0.3s; }
+.icon-lobby .lobby-icon i:hover { opacity: 0.6; }
+.lobby-title { text-shadow: 2px 2px 0px rgba(0,0,0,.8); }
+.lobby-subtitle { font-weight: lighter; }
+.login-btn { transition: 0.3s; }
+.login-btn:hover { box-shadow: 0px 5px 20px rgba(0,0,0,.3) !important; transform: translateY(-2px); }
+.login-btn:active { transform: scale(0.98); }
+
+@media ( max-width: 768px ) {
+   .container-lobby {
+      background:none;
+      color: white;
+   }
+  .lobby-subtitle { font-size: 18px; color: white !important; }
+  .lobby-title { font-size: 68px; }
+}
+
 nav .navbar-brand {
   font-size: 22px;
 }

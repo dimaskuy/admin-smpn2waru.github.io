@@ -1,0 +1,99 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/css/bootstrap.min.css" integrity="sha384-B0vP5xmATw1+K9KRQjQERJvTumQW0nPEzvF6L/Z6nronJ3oUOFUFpCjEUQouq2+l" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.4.1/font/bootstrap-icons.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="stylesheet" href="admin.css">
+    <style media="screen">
+      body::before {
+        width: 100%;
+        height: 100%;
+        content: " ";
+        background-image: linear-gradient(to top, rgba(0,0,0,1), rgba(0,0,0,0)), url(https://i.ibb.co/5cDPSXC/IMG-20200221-134807.jpg);
+        filter: blur(3px);
+        z-index: -9999;
+        background-size: cover;
+        position: fixed;
+        top: 0; left: 0;
+      }
+    </style>
+
+    <title>Welcome, Admin SMPN 2 Waru!</title>
+  </head>
+  <body class="mb-4">
+
+    <div class="container container-lobby pb-4 shadow-lg rounded" data-aos="fade-down" data-aos-duration="600">
+
+      <div class="row text-center">
+        <div class="col-12 p-3">
+          <div class="icon-lobby text-left">
+             <h5>
+                <a href="#" data-toggle="tooltip" title="Bantuan" class="lobby-icon mr-3 rounded"><i class="bi bi-question-circle-fill text-dark"></i> </a>
+                <a href="#" data-toggle="tooltip" title="Arsip" class="lobby-icon mr-3 rounded"><i class="bi bi-archive-fill text-dark"></i> </a>
+                <a href="#" data-toggle="tooltip" title="Reset Password" class="lobby-icon rounded"><i class="bi bi-arrow-repeat text-dark mr-3"></i> </a>
+                <a href="#" class="btn btn-outline-primary text-right official-web-btn shadow-sm">Official Website</a>
+              </h5>
+           </div>
+           <hr class="mt-4">
+          <h5 class="text-secondary lobby-subtitle" data-aos="zoom-in" data-aos-once="true" data-aos-duration="600" data-aos-delay="300">Selamat Datang Admin <b>SMPN 2 Waru</b>, Silahkan Login.</h5>
+          <h1 class="display-3 fw-bold text-primary lobby-title" data-aos="fade-in" data-aos-once="true" data-aos-duration="800" data-aos-delay="600">LOGIN</h1>
+        </div>
+      </div>
+
+      <div class="row justify-content-center">
+        <div class="col-sm-8">
+          <form>
+            <div class="form-group">
+              <label for="username">Username</label>
+              <input type="text" class="form-control text-secondary input-email" id="username" required placeholder="Budi S.">
+            </div>
+            <div class="form-group">
+              <label for="email">Email Anda</label>
+              <input type="email" class="form-control text-secondary input-email" id="email" aria-describedby="emailHelp" required placeholder="contoh@email.com">
+            </div>
+            <div class="form-group">
+              <label for="password">Kata Sandi</label>
+              <input type="password" class="form-control input-email" id="password" required placeholder="katasandi123">
+            </div>
+            <div class="form-group form-check ml-3">
+              <input type="checkbox" class="form-check-input" id="ingat_saya">
+              <label class="form-check-label" for="ingat_saya">Ingat Saya</label>
+            </div>
+            <a href="dashboard.html" class="btn btn-primary btn-block shadow login-btn">LOGIN</a>
+          </form>
+        </div>
+      </div>
+
+<!-- PENUTUP CONTAINER -->
+    </div>
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: jQuery and Bootstrap Bundle (includes Popper) -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-Piv4xVNRyMGpqkS2by6br4gNJ7DXjqk09RmUpJ8jgGtD7zP9yug3goQfGII0yAns" crossorigin="anonymous"></script>
+    <script src="admin.js" charset="utf-8"></script>
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+    <script>
+      AOS.init();
+    </script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.min.js" integrity="sha384-+YQ4JLhjyBLPDQt//I+STsc9iw4uQqACwlvpslubQzn4u2UU2UFM80nGisd026JF" crossorigin="anonymous"></script>
+    -->
+  </body>
+</html>
